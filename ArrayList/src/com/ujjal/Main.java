@@ -17,9 +17,22 @@ public class Main {
             arr.add(x);
         }
 
+        //Update
+        arr.set(3,100);
+
         //traversal
         for(int i=0; i<n; i++){
             System.out.print(arr.get(i) + " ");
         }
+
+        //remove
+        arr.remove(2);
+        System.out.println();
+
+        //traversal
+        for(int i=0; i<arr.size(); i++){
+            System.out.print(arr.get(i) + " ");
+        }
+
     }
 }
