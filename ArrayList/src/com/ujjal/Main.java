@@ -34,5 +34,17 @@ public class Main {
             System.out.print(arr.get(i) + " ");
         }
         System.out.println(arr);
+
+//        int[] arr ={10,20,30,40,50};
+//        //foreach
+//        for (int val : arr){
+//            System.out.print(val + " ");
+//        }
+
+        for (Integer val: arr){
+            System.out.print(val + " ");
+        }
+
+
     }
 }
