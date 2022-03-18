@@ -16,7 +16,7 @@ public class Main {
         if (n==0)
             return 1;
         int pow=power(x,n/2);
-        if(n%2==1)return pow*pow*x;
-        return pow*pow;
+        if(n%2==1) return pow*pow*x;
+        else return pow*pow;
     }
 }
